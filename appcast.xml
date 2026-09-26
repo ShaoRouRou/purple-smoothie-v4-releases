@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Smoothie 字幕工具</title>
+    <item>
+      <title>Smoothie 字幕工具 4.0.0</title>
+      <pubDate>Sat, 26 Sep 2026 16:28:30 +0800</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>4.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="plain-text"><![CDATA[App 改名為「Smoothie 字幕工具」，這是 4.0.0 的正式版。
+更新後你的轉錄紀錄、詞彙表、設定與已下載的模型都會保留。
+更新後 App 不會自己開始轉錄；原本暫停的工作維持暫停。]]></description>
+      <enclosure url="https://github.com/ShaoRouRou/purple-smoothie-v4-releases/releases/download/v4.0.0-build5/Smoothie-Subtitle-Tool-4.0.0-build5-update.zip" length="5651128" type="application/octet-stream" sparkle:edSignature="2I/tWtG+Tj/Cu1r0nvuq7M9syXYfGGR96P5KDmyJkISMQMfsy1W2lc9o0jhGMJDh0/C+8DmXkJ3+PKfPg1DaAg=="></enclosure>
+    </item>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: jxbIObmEEIwjdX/XnjV5dmnlmnhhklaauvnY9Vho0NDoOjGp09PKm/192BexQgEnaCrKFeUvFxMDPk/jxbAjDw==
+length: 1405
+-->
