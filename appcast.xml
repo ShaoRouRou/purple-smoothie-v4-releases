@@ -4,6 +4,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>Smoothie 字幕工具</title>
     <item>
+      <title>Smoothie 字幕工具 4.1.0</title>
+      <pubDate>Sun, 27 Sep 2026 01:04:40 +0800</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>4.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="plain-text"><![CDATA[新增主題色：設定 › 一般 › 外觀 可選 7 種顏色，包括 v3 的「經典」藍灰。
+選單列改為繁體中文，並改善淺色／深色模式的文字可讀性。
+更新視窗現在能更清楚顯示同版號的 build 差異，驗證錯誤訊息也更準確。]]></description>
+      <enclosure url="https://github.com/ShaoRouRou/purple-smoothie-v4-releases/releases/download/v4.1.0/Smoothie-Subtitle-Tool-4.1.0-update.zip" length="5665212" type="application/octet-stream" sparkle:edSignature="WvgrVNcvf6Gtcg2cMyQ1Q+jtD06vVsL4byfOC2F3j410+f8oJMEe7XLOYdUeGB/6z651vilf6ra8EAUQiqZ6AA=="></enclosure>
+    </item>
+    <item>
       <title>Smoothie 字幕工具 4.0.0</title>
       <pubDate>Sat, 26 Sep 2026 16:28:30 +0800</pubDate>
       <sparkle:version>5</sparkle:version>
@@ -16,6 +27,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: jxbIObmEEIwjdX/XnjV5dmnlmnhhklaauvnY9Vho0NDoOjGp09PKm/192BexQgEnaCrKFeUvFxMDPk/jxbAjDw==
-length: 1405
+edSignature: CNl5uehqkVY8YpWrtoXn7u7nGe7Mpwhyk6Plff83gmCTK5jzqmU4scVHdSyXLIfJzyGEr/ED6BD4J0XtfARtAQ==
+length: 2393
 -->
