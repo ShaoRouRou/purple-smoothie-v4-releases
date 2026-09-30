@@ -4,6 +4,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <channel>
     <title>Smoothie 字幕工具</title>
     <item>
+      <title>Smoothie 字幕工具 4.2.0</title>
+      <pubDate>Wed, 30 Sep 2026 20:16:13 +0800</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>4.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="plain-text"><![CDATA[MKV／MKA 支援更多音訊格式，包括 AC-3、E-AC-3、DTS、TrueHD、MP3、PCM、ALAC。
+選擇或拖入檔案時，無法支援的檔案會在加入待轉清單前提示。
+字幕會自動清理部分常見的非語音標記，例如「[音樂]」「(laughs)」。
+更新元件升級至 Sparkle 2.10.0，並修正從選單檢查更新時可能出現空白視窗的問題。]]></description>
+      <enclosure url="https://github.com/ShaoRouRou/purple-smoothie-v4-releases/releases/download/v4.2.0/Smoothie-Subtitle-Tool-4.2.0-update.zip" length="5852143" type="application/octet-stream" sparkle:edSignature="hF4fg59SgemkmZfY+Gi4JgtHXtsDas7jXMISP4HbRar86Db3qz7tg+0Bhy8wLv/EfSPenKZNFNqv+ltssnEzBw=="></enclosure>
+    </item>
+    <item>
       <title>Smoothie 字幕工具 4.1.0</title>
       <pubDate>Sun, 27 Sep 2026 01:04:40 +0800</pubDate>
       <sparkle:version>6</sparkle:version>
@@ -14,19 +26,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 更新視窗現在能更清楚顯示同版號的 build 差異，驗證錯誤訊息也更準確。]]></description>
       <enclosure url="https://github.com/ShaoRouRou/purple-smoothie-v4-releases/releases/download/v4.1.0/Smoothie-Subtitle-Tool-4.1.0-update.zip" length="5665212" type="application/octet-stream" sparkle:edSignature="WvgrVNcvf6Gtcg2cMyQ1Q+jtD06vVsL4byfOC2F3j410+f8oJMEe7XLOYdUeGB/6z651vilf6ra8EAUQiqZ6AA=="></enclosure>
     </item>
-    <item>
-      <title>Smoothie 字幕工具 4.0.0</title>
-      <pubDate>Sat, 26 Sep 2026 16:28:30 +0800</pubDate>
-      <sparkle:version>5</sparkle:version>
-      <sparkle:shortVersionString>4.0.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <description sparkle:format="plain-text"><![CDATA[App 改名為「Smoothie 字幕工具」，這是 4.0.0 的正式版。
-更新後你的轉錄紀錄、詞彙表、設定與已下載的模型都會保留。
-更新後 App 不會自己開始轉錄；原本暫停的工作維持暫停。]]></description>
-      <enclosure url="https://github.com/ShaoRouRou/purple-smoothie-v4-releases/releases/download/v4.0.0-build5/Smoothie-Subtitle-Tool-4.0.0-build5-update.zip" length="5651128" type="application/octet-stream" sparkle:edSignature="2I/tWtG+Tj/Cu1r0nvuq7M9syXYfGGR96P5KDmyJkISMQMfsy1W2lc9o0jhGMJDh0/C+8DmXkJ3+PKfPg1DaAg=="></enclosure>
-    </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: CNl5uehqkVY8YpWrtoXn7u7nGe7Mpwhyk6Plff83gmCTK5jzqmU4scVHdSyXLIfJzyGEr/ED6BD4J0XtfARtAQ==
-length: 2393
+edSignature: LGdLq4J0JNFGHm6ZIVMPuy6nW9MDiJU3RK0+ZKKaZSNC0eYLQOu6ohF/S4TE+ESUzal+lNhEVfNX3C86pGLVAA==
+length: 2525
 -->
