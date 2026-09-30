@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
-IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Smoothie 字幕工具</title>
     <item>
@@ -9,10 +8,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
       <sparkle:version>7</sparkle:version>
       <sparkle:shortVersionString>4.2.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <description sparkle:format="plain-text"><![CDATA[MKV／MKA 支援更多音訊格式，包括 AC-3、E-AC-3、DTS、TrueHD、MP3、PCM、ALAC。
-選擇或拖入檔案時，無法支援的檔案會在加入待轉清單前提示。
-字幕會自動清理部分常見的非語音標記，例如「[音樂]」「(laughs)」。
-更新元件升級至 Sparkle 2.10.0，並修正從選單檢查更新時可能出現空白視窗的問題。]]></description>
+      <description sparkle:format="plain-text"><![CDATA[支援更多媒體格式，並改善檔案檢查、字幕清理與更新體驗。
+
+・支援更多格式
+　MKV／MKA 新增支援 AC-3、E-AC-3、DTS、TrueHD、MP3、PCM、ALAC。
+
+・更早發現不支援的檔案
+　選擇或拖入檔案時，無法轉錄的檔案會在加入待轉清單前直接提醒。
+
+・字幕更乾淨
+　自動清理部分常見的非語音標記，例如「[音樂]」「(laughs)」。
+
+・模型狀態更安全
+　不同精度的 Breeze 模型會各自判斷狀態，一個模型異常不會影響其他正常版本。
+
+・更新體驗改善
+　改善更新流程，並修正從選單檢查更新時可能出現空白視窗的問題。]]></description>
       <enclosure url="https://github.com/ShaoRouRou/purple-smoothie-v4-releases/releases/download/v4.2.0/Smoothie-Subtitle-Tool-4.2.0-update.zip" length="5852143" type="application/octet-stream" sparkle:edSignature="hF4fg59SgemkmZfY+Gi4JgtHXtsDas7jXMISP4HbRar86Db3qz7tg+0Bhy8wLv/EfSPenKZNFNqv+ltssnEzBw=="></enclosure>
     </item>
     <item>
@@ -27,7 +38,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
       <enclosure url="https://github.com/ShaoRouRou/purple-smoothie-v4-releases/releases/download/v4.1.0/Smoothie-Subtitle-Tool-4.1.0-update.zip" length="5665212" type="application/octet-stream" sparkle:edSignature="WvgrVNcvf6Gtcg2cMyQ1Q+jtD06vVsL4byfOC2F3j410+f8oJMEe7XLOYdUeGB/6z651vilf6ra8EAUQiqZ6AA=="></enclosure>
     </item>
   </channel>
-</rss><!-- sparkle-signatures:
-edSignature: LGdLq4J0JNFGHm6ZIVMPuy6nW9MDiJU3RK0+ZKKaZSNC0eYLQOu6ohF/S4TE+ESUzal+lNhEVfNX3C86pGLVAA==
-length: 2525
+</rss>
+<!-- sparkle-signatures:
+edSignature: rV6kFWFYpiwCU6mChsJkfmUHE7NDfvo6OxyUMmDNu1+Hq7brUk7Ghh7yBpp8WtQcYbuzdI0XflTx74MKwiZJAw==
+length: 2561
 -->
