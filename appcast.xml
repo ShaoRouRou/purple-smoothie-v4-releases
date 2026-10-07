@@ -3,6 +3,35 @@
   <channel>
     <title>Smoothie 字幕工具</title>
     <item>
+      <title>Smoothie 字幕工具 4.3.0</title>
+      <pubDate>Thu, 08 Oct 2026 02:27:48 +0800</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>4.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="plain-text"><![CDATA[重要：如果之後要降回 4.2，請先在 4.3 完成或移除非中文與自動偵測的未完成工作。
+
+新增英文、日文、韓文等多語言字幕轉錄，並可自動偵測影片語言。
+
+・多語言轉錄
+　中文使用 Breeze 模型。英文、日文、韓文使用 Whisper large-v3-turbo 模型，是 4.3 重點驗證的語言。
+　其他 Whisper 支援的語言也可以使用，但未經 Smoothie 逐一驗證。
+　Whisper large-v3-turbo 需要另外下載，約 874 MB。
+
+・自動偵測語言
+　影片語言可以選「自動偵測」。自動偵測目前可能無法區分中文與粵語，粵語內容建議手動選擇「粵語」。
+
+・詞彙表分語言
+　詞彙表分成中文、英文、日文三份；韓文與其他語言目前不使用詞彙表。
+
+・中文模型
+　提供「平衡」（Q8_0，推薦）與「省空間」（Q6）兩種，實測辨識品質與字幕時間點無明顯差異。
+　FP16 不再提供新下載，已經安裝的可以繼續使用。
+
+・視窗與更新
+　新安裝或沒有既有視窗紀錄時，主視窗會以較小尺寸開啟；既有視窗大小會保留。更新視窗改為精簡版面。]]></description>
+      <enclosure url="https://github.com/ShaoRouRou/purple-smoothie-v4-releases/releases/download/v4.3.0/Smoothie-Subtitle-Tool-4.3.0-update.zip" length="5995445" type="application/octet-stream" sparkle:edSignature="wN3t2xqijTacI2P8Q6C0VDT/LG+3HkeJR8XOjYVzPgvgbk0aig1Yeaoi0YOSEI9L+OuAJ7UpVcZNGOyB5IG9Dg=="></enclosure>
+    </item>
+    <item>
       <title>Smoothie 字幕工具 4.2.0</title>
       <pubDate>Wed, 30 Sep 2026 20:16:13 +0800</pubDate>
       <sparkle:version>7</sparkle:version>
@@ -26,20 +55,9 @@
 　改善更新流程，並修正從選單檢查更新時可能出現空白視窗的問題。]]></description>
       <enclosure url="https://github.com/ShaoRouRou/purple-smoothie-v4-releases/releases/download/v4.2.0/Smoothie-Subtitle-Tool-4.2.0-update.zip" length="5852143" type="application/octet-stream" sparkle:edSignature="hF4fg59SgemkmZfY+Gi4JgtHXtsDas7jXMISP4HbRar86Db3qz7tg+0Bhy8wLv/EfSPenKZNFNqv+ltssnEzBw=="></enclosure>
     </item>
-    <item>
-      <title>Smoothie 字幕工具 4.1.0</title>
-      <pubDate>Sun, 27 Sep 2026 01:04:40 +0800</pubDate>
-      <sparkle:version>6</sparkle:version>
-      <sparkle:shortVersionString>4.1.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <description sparkle:format="plain-text"><![CDATA[新增主題色：設定 › 一般 › 外觀 可選 7 種顏色，包括 v3 的「經典」藍灰。
-選單列改為繁體中文，並改善淺色／深色模式的文字可讀性。
-更新視窗現在能更清楚顯示同版號的 build 差異，驗證錯誤訊息也更準確。]]></description>
-      <enclosure url="https://github.com/ShaoRouRou/purple-smoothie-v4-releases/releases/download/v4.1.0/Smoothie-Subtitle-Tool-4.1.0-update.zip" length="5665212" type="application/octet-stream" sparkle:edSignature="WvgrVNcvf6Gtcg2cMyQ1Q+jtD06vVsL4byfOC2F3j410+f8oJMEe7XLOYdUeGB/6z651vilf6ra8EAUQiqZ6AA=="></enclosure>
-    </item>
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: rV6kFWFYpiwCU6mChsJkfmUHE7NDfvo6OxyUMmDNu1+Hq7brUk7Ghh7yBpp8WtQcYbuzdI0XflTx74MKwiZJAw==
-length: 2561
+edSignature: w+gQRhC1T4xaMDdMI+fm/TUEyOJX57hmu14wgiMbMwRHfs+yEkEEZoZQs3ZVEVN4u2ZRD7ikch2lODygtlVvBg==
+length: 3449
 -->
